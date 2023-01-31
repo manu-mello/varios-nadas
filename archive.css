@@ -18,7 +18,7 @@ nav {
     top: 0;
 }
 
-.menu, .credits, section {
+.menu, .credits {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,29 +46,27 @@ a:hover {
 
 main {
     background-size: contain;  
-    padding: 10%;  
+    padding: 5%;  
 }
 
-.pageContainer {
+.archive {
+    display: flex;
+    column-gap: 16px;
+}
+
+.imgContainer {
     background-size: cover;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
+    transition: 0.5s;
 }
 
-img {
+.img {
     width: 100%;
     height: 100%;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    size: 10%;
-    opacity: 50%;
-    transition: .5s;
-}
-
-button:hover {
-    opacity: 100%;
+.imgContainer:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }

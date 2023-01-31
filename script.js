@@ -52,3 +52,42 @@ const comic6 = ["./img/comics/6/6-efeito-borboleta-0.png",
 "./img/comics/5/5-euzebio-the-frog-7.png"]
 
 const comics = [comic0, comic1, comic2, comic3, comic4, comic5, comic6]
+
+let index = 0;
+
+function makeImage() {
+    let img = document.createElement('img')
+    img.src = comic0[index];
+    document.getElementById('comicPage').appendChild(img);
+ }
+ 
+
+ function nextPage(){
+    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+    index++;
+    index = index % comic0.length; 
+    img.src = comic0[index];
+ }
+
+ function previousPage(){
+    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+    index--;
+    index = index % comic0.length; 
+    img.src = comic0[index];
+ }
+
+ /* bug: if comic page = comic0[0] the previousPage function does not work*/
+
+ function nextComic(){
+    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+    index++;
+    index = index % comic0.length; 
+    img.src = comic0[index];
+ }
+
+ function previousComic(){
+    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+    index--;
+    index = index % comic0.length; 
+    img.src = comic0[index];
+ }
