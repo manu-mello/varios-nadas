@@ -18,7 +18,7 @@ nav {
     top: 0;
 }
 
-.menu, .credits, section {
+.menu, .credits {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,29 +46,17 @@ a:hover {
 
 main {
     background-size: contain;  
-    padding: 10%;  
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;  
 }
 
-.pageContainer {
-    background-size: cover;
-    width: 50%;
-    height: 50%;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-button {
-    background-color: transparent;
-    border: none;
-    size: 10%;
-    opacity: 50%;
-    transition: .5s;
-}
-
-button:hover {
-    opacity: 100%;
-    cursor: pointer;
+.about {
+    font-family: 'Fira Code', monospace;
+    color: #d6d6d6;
+    display: grid;
+    row-gap: 20px;
+    text-align: center;
+    font-size: xx-large;
 }

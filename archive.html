@@ -7,13 +7,13 @@
     <link rel="icon" href="favicon.ico">
     <script src="script.js"></script>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="archive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
     <title>Vários Nadas</title>
 </head>
-<body onload="makeImage()">
+<body>
     <header>
         <img src="./img/banner-varios-nadas.jpg" alt="Vários Nadas Banner">
     </header>
@@ -25,12 +25,14 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <button onclick="previousComic()"><img src="prev-comic.svg" alt="Previous comic"></button>
-            <button onclick="previousPage()"><img src="prev-panel.svg" alt="Previous Panel"></button>
-            <div class="pageContainer"><div id="comicPage"></div></div>
-            <button onclick="nextPage()"><img src="next-panel.svg" alt="Next Panel"></button>
-            <button onclick="nextComic()"><img src="next-comic.svg" alt="Next Comic"></button>
+        <section class="archive">
+            <a class="imgContainer" href="index.html"><img class="img" src="./img/comics/0/0-varios-nadas-0.png" alt="Vários Nadas"></a>
+            <a class="imgContainer"><img class="img" src="./img/comics/1/1-ladroes-de-tempo-0.png" alt="Ladrões de tempo"></a>
+            <a class="imgContainer"><img class="img" src="./img/comics/2/2-mijada-de-cachorro-na-praia-0.png" alt="Mijada de cachorro na praia"></a>
+            <a class="imgContainer"><img class="img" src="./img/comics/3/3-apatico-0.png" alt="Apático"></a>
+            <a class="imgContainer"><img class="img" src="./img/comics/4/4-os-tanukis-show-de-bola-0.png" alt="Os tanukis show de bola"></a>
+            <a class="imgContainer"><img class="img" src="./img/comics/5/5-euzebio-the-frog-0.png" alt="Euzébio the frog"></a>
+            <a class="imgContainer"><img class="img" src="./img/comics/6/6-efeito-borboleta-0.png" alt="Efeito borboleta"></a>
         </section>
     </main>
     <footer>
