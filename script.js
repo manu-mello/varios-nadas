@@ -71,23 +71,18 @@ function makeImage() {
 
  function previousPage(){
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-    index--;
-    index = index % comic0.length; 
-    img.src = comic0[index];
- }
+      index--;
+      index = index % comic0.length; 
+      img.src = comic0[index];
+}
 
- /* bug: if comic page = comic0[0] the previousPage function does not work*/
+ /* bug:comic0[0] the previousPage function does not work*/
+ /*  ????   if(img.src = comic0[0]){}   ????  */
 
  function nextComic(){
-    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-    index++;
-    index = index % comic0.length; 
-    img.src = comic0[index];
+   undefined
  }
 
  function previousComic(){
-    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-    index--;
-    index = index % comic0.length; 
-    img.src = comic0[index];
+   undefined
  }
