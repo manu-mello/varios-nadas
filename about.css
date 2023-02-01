@@ -52,11 +52,34 @@ main {
     column-gap: 20px;  
 }
 
-.about {
+.about, #about {
+    height: auto;
     font-family: 'Fira Code', monospace;
     color: #d6d6d6;
-    display: grid;
-    row-gap: 20px;
     text-align: center;
     font-size: xx-large;
+}
+
+.about {
+    width: 80%;
+    display: grid;
+    row-gap: 20px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutContainer {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    display: grid;
+    row-gap: 40px;
+}
+
+#about {
+    width: 100%;
+    font-size: medium;
 }

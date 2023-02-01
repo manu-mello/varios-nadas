@@ -79,15 +79,9 @@ function makeImage() {
  /* bug: if comic page = comic0[0] the previousPage function does not work*/
 
  function nextComic(){
-    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-    index++;
-    index = index % comic0.length; 
-    img.src = comic0[index];
+   undefined
  }
 
  function previousComic(){
-    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-    index--;
-    index = index % comic0.length; 
-    img.src = comic0[index];
+   undefined
  }
