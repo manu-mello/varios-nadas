@@ -12,8 +12,8 @@ Comecei criando o design das páginas no Figma, versão desktop e mobile,
 
 mas na hora de desenvolver o código acabei optando por não seguir a máxima "mobile first", motivo de um certo arrependimento mais à frente no projeto.
 
-Este é o site já terminado, completamente funcional e responsivo: https://manu-mello.github.io/varios-nadas/
-Deixo aqui para que você saiba que no final deu tudo certo.
+Este é o site já (quase) terminado, funcional e responsivo.
+Deixo aqui para que você saiba que no final deu tudo certo:
 
 <img src="./img/readme0.png">
 <img src="./img/readme1.png">
@@ -46,3 +46,18 @@ Deixei essa missão para o fim e finalmente ajustei o CSS para deixar o site tot
 
 Até amanhã!
 
+...
+
+Dia raiou e minha tarefa se mostrou um tanto complicada. Consegui implementar uma função para redirecionar da página de arquivo para a página da HQ, mas sempre voltava na primeira, ao invés de associar cada imagem/link no arquivo a respectiva tirinha.
+
+Pedi ajuda aos universitários, mas não consegui implementar a função corretamente.
+
+Então tive a ideia de modificar o projeto para deixar tudo em uma única página, pois assim seria mais fácil implementar uma função que fizesse o esperado. E assim eu fiz, modifiquei tudo que era necessário para adaptar pra esse novo layout, verifiquei a responsividade e VOILA: um site 100% funcional 100% responsivo 100% autoral 100% PRONTO.
+
+<h1>Agora sim, você pode conferir o deploy do resultado finalFinalMesmo:
+https://manu-mello.github.io/varios-nadas/</h1>
+
+Tá pronto o sorvetinho <3 
+Meu primeiro projeto autoral <3
+
+Gratidão pela atenção e até a próxima!

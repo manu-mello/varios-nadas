@@ -65,7 +65,6 @@ function makeImage() {
     document.getElementById('comicPage').appendChild(img);
  }
  
-
  function nextPage() {
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
     i++;
@@ -102,10 +101,8 @@ function makeImage() {
     }
  }
 
-
  function goToComic(x) {
-   window.location.assign(url="index.html");
-   index = (x);
-   comic = comics[index]
+   let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+   comic = comics[x];
    img.src = comic[0];
  }

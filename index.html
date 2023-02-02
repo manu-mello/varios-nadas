@@ -14,25 +14,50 @@
     <title>Vários Nadas</title>
 </head>
 <body onload="makeImage()">
-    <header>
+    <header id="index">
         <img src="./img/banner-varios-nadas.jpg" alt="Vários Nadas Banner">
     </header>
     <nav>
         <ul class="menu">
-            <li class="nav"><a href="index.html">início</a></li>
-            <li class="nav"><a href="archive.html">arquivo</a></li>
-            <li class="nav"><a href="about.html">sobre</a></li>
+            <li class="nav"><a href="#index">início</a></li>
+            <li class="nav"><a href="#archive">arquivo</a></li>
+            <li class="nav"><a href="#about">sobre</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section class="comic" id="comic">
             <button onclick="previousComic()"><img src="prev-comic.svg" alt="Previous comic"></button>
             <button onclick="previousPage()"><img src="prev-panel.svg" alt="Previous Panel"></button>
             <div class="pageContainer"><div id="comicPage"></div></div>
             <button onclick="nextPage()"><img src="next-panel.svg" alt="Next Panel"></button>
             <button onclick="nextComic()"><img src="next-comic.svg" alt="Next Comic"></button>
         </section>
+        <p id="archive">Arquivo</p>
+        <section class="archive">
+            <button onclick="goToComic(0)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/0/0-varios-nadas-0.png" alt="Vários Nadas"></a></button>
+            <button onclick="goToComic(1)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/1/1-ladroes-de-tempo-0.png" alt="Ladrões de tempo"></a></button>
+            <button onclick="goToComic(2)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/2/2-mijada-de-cachorro-na-praia-0.png" alt="Mijada de cachorro na praia"></a></button>
+            <button onclick="goToComic(3)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/3/3-apatico-0.png" alt="Apático"></a></button>
+            <button onclick="goToComic(4)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/4/4-os-tanukis-show-de-bola-0.png" alt="Os tanukis show de bola"></a></button>
+            <button onclick="goToComic(5)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/5/5-euzebio-the-frog-0.png" alt="Euzébio the frog"></a></button>
+            <button onclick="goToComic(6)" class="imgContainer"><a href="#comic"><img class="cover" src="./img/comics/6/6-efeito-borboleta-0.png" alt="Efeito borboleta"></a></button>
+        </section>
+        <p id="about">Sobre</p>
+        <section class="profiles">
+            <div class="about">
+                Artist: Victor Zanini
+                <img class="profile" src="./img/zanini.png" alt="Zanini">
+            </div>
+            <div class="about">
+                Dev: Manu Mello
+                <img class="profile" src="./img/manu.png" alt="Manu">
+            </div>
+        </section>
     </main>
+    <div class="aboutContainer">
+        <p class="text">"Talvez seja natural, uma vez que se desenha, querer contar historias com rabiscos. <br> Verdade seja dita, eu não gosto de livro sem imagem." (Victor Zanini)</p>
+        <p class="text">Manu aqui. Esse sítio de ler quadrinhos nasce como meu primeiro projeto autoral de desenvolvimento web a ser terminado, ou algo do tipo, e como homenagem ao querido amigo que me deu a honra de ser incluída em suas narrativas imagéticas de cenas da minha e da nossa vida. No arquivo se encontra minha seleção pessoal de 7 das 23 bandas desenhadas da série Vários Nadas, que pode ser encontrada em sua totalidade por aqueles dispostos a desbravar meu layout em busca do link para o portfólio do autor. Brincadeira. Está no rodapé, no nome do dito cujo. Clica lá. Talvez no meu nome tenha alguma coisa também. Eu poderia deixar mais fácil em nome da "experiência do usuário", famosa UX, mas onde estaria a graça nisso? Afinal, sou dev, não designer. Gratidão por ler minhas bobagens até aqui, e pela apreciação do meu trabalho.</p>
+    </div>
     <footer>
         <ul class="credits">
             <li class="credit">criado por <a class="name" href="https://zanicto.super.site/">victor zanini</a></li>
