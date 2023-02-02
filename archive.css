@@ -9,6 +9,7 @@ button {
 .archive {
     display: flex;
     column-gap: 16px;
+    flex-wrap: nowrap;
 }
 
 .imgContainer {
