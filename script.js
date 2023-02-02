@@ -43,13 +43,13 @@ const comic5 = ["./img/comics/5/5-euzebio-the-frog-0.png",
 "./img/comics/5/5-euzebio-the-frog-7.png"]
 
 const comic6 = ["./img/comics/6/6-efeito-borboleta-0.png",
-"./img/comics/5/5-euzebio-the-frog-1.png",
-"./img/comics/5/5-euzebio-the-frog-2.png",
-"./img/comics/5/5-euzebio-the-frog-3.png",
-"./img/comics/5/5-euzebio-the-frog-4.png",
-"./img/comics/5/5-euzebio-the-frog-5.png",
-"./img/comics/5/5-euzebio-the-frog-6.png",
-"./img/comics/5/5-euzebio-the-frog-7.png"]
+"./img/comics/6/6-efeito-borboleta-1.png",
+"./img/comics/6/6-efeito-borboleta-2.png",
+"./img/comics/6/6-efeito-borboleta-3.png",
+"./img/comics/6/6-efeito-borboleta-4.png",
+"./img/comics/6/6-efeito-borboleta-5.png",
+"./img/comics/6/6-efeito-borboleta-6.png",
+"./img/comics/6/6-efeito-borboleta-7.png"]
 
 const comics = [comic0, comic1, comic2, comic3, comic4, comic5, comic6]
 
