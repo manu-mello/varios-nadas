@@ -63,12 +63,39 @@ img {
 button {
     background-color: transparent;
     border: none;
-    size: 10%;
     opacity: 50%;
     transition: .5s;
+    width: 10%;
+    height: 10%;
 }
 
 button:hover {
     opacity: 100%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        height: 160px;
+        width: 100%;
+    }
+
+    header img {
+        object-fit: cover;
+    }
+
+    section {
+        row-gap: 16px;
+    }
+
+    .pageContainer {
+        order: -1;
+        width: 90%;
+        height: 90%;
+    }
+
+    button {
+        width: 20%;
+        height: 20%;
+    }
 }

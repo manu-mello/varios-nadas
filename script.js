@@ -53,36 +53,53 @@ const comic6 = ["./img/comics/6/6-efeito-borboleta-0.png",
 
 const comics = [comic0, comic1, comic2, comic3, comic4, comic5, comic6]
 
+let i = 0;
+
 let index = 0;
+
+let comic = comics[index]
 
 function makeImage() {
     let img = document.createElement('img')
-    img.src = comic0[index];
+    img.src = comic[i];
     document.getElementById('comicPage').appendChild(img);
  }
  
 
  function nextPage(){
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-    index++;
-    index = index % comic0.length; 
-    img.src = comic0[index];
+    i++;
+    i = i % comic.length; 
+    img.src = comic[i];
  }
 
  function previousPage(){
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
-      index--;
-      index = index % comic0.length; 
-      img.src = comic0[index];
+    if (i > 0) {
+      i--;
+      i = i % comic.length; 
+      img.src = comic[i];
+    }
 }
 
- /* bug:comic0[0] the previousPage function does not work*/
- /*  ????   if(img.src = comic0[0]){}   ????  */
-
  function nextComic(){
-   undefined
+    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+    index++;
+    index = index % comics.length;
+    comic = comics[index];
+    img.src = comic[i];
  }
 
  function previousComic(){
-   undefined
+    let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
+    if (index > 0) {
+	    index--;
+	    index = index % comics.length;
+	    comic = comics[index];
+	    img.src = comic[i];
+    } else {
+      index = comics.length;
+    }
  }
+
+ // archive function //
