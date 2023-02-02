@@ -2,7 +2,7 @@
 
 Para meu primeiro projeto, quis criar um site para ler webcomic. Tendo lido muitas, principalmente na adolescência, e sendo apaixonada por quadrinhos desde sempre, eu já queria fazer isso mesmo antes de sonhar em programar.
 
-Como ainda não escrevi uma HQ na, e pra não fazer algo genérico, escolhi a série de tiras Vários Nadas, originalmente publicada no instagram e agora presente apenas no portfólio do autor que, sinceramente, não oferece a melhor experiência de leitura. O autor é um artista que eu admiro, além de amigo que eu amo, aliás, eu até tenho algumas aparições no meio desses quadrinhos, então quis honrar essa obra com um site bonito e funcional.
+Como ainda não escrevi uma HQ, e pra não fazer algo genérico, escolhi a série de tiras Vários Nadas, originalmente publicada no instagram e agora presente apenas no portfólio do autor que, sinceramente, não oferece a melhor experiência de leitura. O autor é um artista que eu admiro, além de amigo que eu amo, aliás, eu até tenho algumas aparições no meio desses quadrinhos, então quis honrar essa obra com um site bonito e funcional.
 
 Minha inspiração veio de outros sites de webcomics que eu já li, e também da estética preto-e-branco da obra, trazendo no design um minimalismo na intenção de destacar os belos desenhos e a experiência de leitura.
 
@@ -23,9 +23,9 @@ Este é o site já terminado, completamente funcional e responsivo: https://manu
 
 Deixo aqui para que você saiba que no final deu tudo certo.
 
-<h2>Agora, a saga:<h2>
+<h2>Agora, a saga:</h2>
 
-Meu primeiro desafio foi implementar a qualidade <code>sticky</code> à barra de navegação - esse efeito que faz ela grudar no topo da página enquanto você navega utilizando a barra de scroll, por interferência da propriedade <code>overflow<code> causada pelo banner da página que dividia o cabeçalho com a barra de navegação, motivo que me levou a mover esse menu para fora do cabeçalho, deixando só o banner dentro da tag <code>header</code>.
+Meu primeiro desafio foi implementar a qualidade <code>sticky</code> à barra de navegação - esse efeito que faz ela grudar no topo da página enquanto você navega utilizando a barra de scroll, por interferência da propriedade <code>overflow</code> causada pelo banner da página que dividia o cabeçalho com a barra de navegação, motivo que me levou a mover esse menu para fora do cabeçalho, deixando só o banner dentro da tag <code>header</code>.
 
 Prontos o HTML e CSS básicos da página inicial com o lugar para a sequência de quadrinhos e os botões de navegação pelas páginas e tirinhas, a princípio sem saber como os tornaria responsivos utilizando JavaScript, mas fé. Aqui já percebi alguns problemas de responsividade, devido ao tamanho fixo da arte dos botões.
 
