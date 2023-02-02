@@ -54,8 +54,8 @@ Pedi ajuda aos universitários, mas não consegui implementar a função correta
 
 Então tive a ideia de modificar o projeto para deixar tudo em uma única página, pois assim seria mais fácil implementar uma função que fizesse o esperado. E assim eu fiz, modifiquei tudo que era necessário para adaptar pra esse novo layout, verifiquei a responsividade e VOILA: um site 100% funcional 100% responsivo 100% autoral 100% PRONTO.
 
-<h1>Agora sim, você pode conferir o deploy do resultado finalFinalMesmo:
-https://manu-mello.github.io/varios-nadas/</h1>
+<h2>Agora sim, você pode conferir o deploy do resultado finalFinalMesmo:</h2>
+<h1>https://manu-mello.github.io/varios-nadas/</h1>
 
 Tá pronto o sorvetinho <3 
 Meu primeiro projeto autoral <3
