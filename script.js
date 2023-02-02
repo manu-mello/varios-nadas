@@ -66,40 +66,46 @@ function makeImage() {
  }
  
 
- function nextPage(){
+ function nextPage() {
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
     i++;
     i = i % comic.length; 
-    img.src = comic[0];
+    img.src = comic[i];
  }
 
- function previousPage(){
+ function previousPage() {
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
     if (i > 0) {
       i--;
       i = i % comic.length; 
-      img.src = comic[0];
+      img.src = comic[i];
     }
 }
 
- function nextComic(){
+ function nextComic() {
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
     index++;
     index = index % comics.length;
     comic = comics[index];
-    img.src = comic[i];
+    img.src = comic[0];
  }
 
- function previousComic(){
+ function previousComic() {
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
     if (index > 0) {
 	    index--;
 	    index = index % comics.length;
 	    comic = comics[index];
-	    img.src = comic[i];
+	    img.src = comic[0];
     } else {
       index = comics.length;
     }
  }
 
- // archive function //
+
+ function goToComic(x) {
+   window.location.assign(url="index.html");
+   index = (x);
+   comic = comics[index]
+   img.src = comic[0];
+ }
