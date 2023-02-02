@@ -18,7 +18,9 @@ Deixo aqui para que você saiba que no final deu tudo certo.
 <img src="./img/readme0.png">
 <img src="./img/readme1.png">
 <img src="./img/readme2.png">
-<img src="./img/readme3.png"> <img src="./img/readme4.png"> <img src="./img/readme5.png">
+<img src="./img/readme3.png">
+<img src="./img/readme4.png">
+<img src="./img/readme5.png">
 
 <h2>Agora, a saga:</h2>
 
@@ -41,4 +43,6 @@ Depois de um longo descanso e outras aventuras, retornei ao projeto na noite seg
 Isso criou um problema na página de arquivo: as âncoras em cada imagem obviamente pararam de funcionar, pois direcionavam para páginas que não existem mais. Enquanto reflito sobre a melhor solução, pensei em escrever essa documentação.
 
 Deixei essa missão para o fim e finalmente ajustei o CSS para deixar o site totalmente responsivo.
+
+Até amanhã!
 
