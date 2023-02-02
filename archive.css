@@ -1,52 +1,9 @@
-body {
-    background-color: #080808;
-}
-
-header img {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-nav, footer {
-    background-color: #232323;
-    padding: 20px;
-}
-
-nav {
-    position: sticky;
-    top: 0;
-}
-
-.menu, .credits {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.nav a, .name {
-    font-family: 'Fira Code', monospace;
-    text-decoration: none;
-    color: #d6d6d6;
-    font-size: large;
-    height: 20px;
-}
-
-a:hover {
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-.credit {
-    font-family: 'Fira Code', monospace;
-    font-size: large;
-    color: #080808;    
-}
-
-main {
-    background-size: contain;  
+main {  
     padding: 5%;  
+}
+
+button {
+    opacity: 100%;
 }
 
 .archive {
