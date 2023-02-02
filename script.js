@@ -70,7 +70,7 @@ function makeImage() {
     let img = document.getElementById('comicPage').getElementsByTagName('img')[0]
     i++;
     i = i % comic.length; 
-    img.src = comic[i];
+    img.src = comic[0];
  }
 
  function previousPage(){
@@ -78,7 +78,7 @@ function makeImage() {
     if (i > 0) {
       i--;
       i = i % comic.length; 
-      img.src = comic[i];
+      img.src = comic[0];
     }
 }
 
