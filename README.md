@@ -13,15 +13,12 @@ Comecei criando o design das páginas no Figma, versão desktop e mobile,
 mas na hora de desenvolver o código acabei optando por não seguir a máxima "mobile first", motivo de um certo arrependimento mais à frente no projeto.
 
 Este é o site já terminado, completamente funcional e responsivo: https://manu-mello.github.io/varios-nadas/
+Deixo aqui para que você saiba que no final deu tudo certo.
 
 <img src="./img/readme0.png">
 <img src="./img/readme1.png">
 <img src="./img/readme2.png">
-<img src="./img/readme3.png">
-<img src="./img/readme4.png">
-<img src="./img/readme5.png">
-
-Deixo aqui para que você saiba que no final deu tudo certo.
+<img src="./img/readme3.png"> <img src="./img/readme4.png"> <img src="./img/readme5.png">
 
 <h2>Agora, a saga:</h2>
 
