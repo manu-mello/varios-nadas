@@ -48,7 +48,7 @@ Até amanhã!
 
 ...
 
-Dia raiou e minha tarefa se mostrou um tanto complicada. Consegui implementar uma função para redirecionar da página de arquivo para a página da HQ, mas sempre voltava na primeira, ao invés de associar cada imagem/link no arquivo a respectiva tirinha.
+Dia raiou e minha tarefa se mostrou um tanto complicada. Consegui implementar uma função para redirecionar da página de arquivo para a página da HQ, mas sempre voltava na primeira, ao invés de associar cada imagem/link no arquivo à respectiva tirinha.
 
 Pedi ajuda aos universitários, mas não consegui implementar a função corretamente.
 
@@ -56,8 +56,5 @@ Então tive a ideia de modificar o projeto para deixar tudo em uma única págin
 
 <h2>Agora sim, você pode conferir o deploy do resultado finalFinalMesmo:</h2>
 <h1>https://manu-mello.github.io/varios-nadas/</h1>
-
-Tá pronto o sorvetinho <3 
-Meu primeiro projeto autoral <3
 
 Gratidão pela atenção e até a próxima!
